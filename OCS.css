@@ -1,0 +1,308 @@
+.accueil {
+    background-image: url(IMAGES/Collage.jpg);
+    background-color: green;}
+
+.page1FR {
+    background-color: green;}
+
+.servicesFR {
+    background-color: blue;}
+
+.servadminFR {
+    background-color: coral;}
+
+.cyber {
+    position: fixed;
+    top: 30px;
+    right: 30px;}
+
+.titre {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    text-shadow: 5px 5px black;}
+
+.titre2 {
+    color: lightblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    text-shadow: 5px 5px black;}
+
+button {
+    background-color: darkred;
+    color: white;
+    border-radius: 15px;
+    width: 250px;
+    height: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;}
+
+button:hover {
+    background-color: blue;}
+        
+button:active {
+    background-color: lime;
+    transform: scale(1.05);}
+
+.retour {
+    position: fixed;
+    top: auto;
+    right: 0;
+    bottom: 0;
+    left: auto;
+    width: 150px;
+    height: 100px;}
+
+.boutonservices {
+    align-items: center;
+    text-align: center;}
+
+p {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;}
+
+a {
+    color: white;}
+
+.horaire {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    z-index: 1;}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;}
+
+.container1FR {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: auto 1fr auto;
+    gap: 20px;
+    grid-template-areas:
+        "header header header"
+        "welcome logo logo"
+        "footer footer footer";}
+
+.container2FR {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: auto 1fr auto;
+    gap: 20px;
+    grid-template-areas:
+        "header header header"
+        "detaillantfdj servadmin revendeurposte"
+        "bazar café multimedia";}
+
+.container3FR {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 20px;
+    grid-template-areas:
+        "section section section";
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: oblique;}
+
+.langues {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    grid-template-areas:
+        "button button button button";}
+
+nav {
+    color: white;
+    font-size: 40px;
+    background-color: blue;}
+
+.header {
+    grid-area: header;
+    background-color: brown;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    position: relative;
+    z-index: 0;
+    text-shadow: 5px 5px black;}
+    
+.welcome {
+    grid-area: welcome;
+    background-color: white;
+    padding: 20px;
+    color: black;
+    border-radius: 15px;
+    box-shadow: 5px 5px black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    align-items: center;
+    text-align: center;}
+
+.logo {
+    grid-area: logo;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;}
+
+.logofinal {
+    z-index: 0;}
+
+.footer {
+    grid-area: footer;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: small;}
+
+.top-menu {
+  margin-bottom: 20px;}
+
+.menu-list {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: blue;
+  border-radius: 8px;}
+
+.menu-item {
+  position: relative;
+  padding: 10px 15px;}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    list-style: none;
+    padding: 10px;
+    width: 100%;
+    z-index: 10;}
+
+.has-submenu:hover .submenu {
+    display: block;}
+
+.has-submenu {
+    position: relative;}
+
+.propos {
+    color: black;
+    font-size: 20px;}
+
+.contact {
+    color: black;
+    font-size: 20px;}
+
+.detaillantfdj {
+    grid-area: detaillantfdj;
+    background-color: white;
+    padding: 20px;
+    color: black;
+    border-radius: 15px;
+    box-shadow: 5px 5px black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;}
+
+.servadmin {
+    grid-area: servadmin;
+    background-color: white;
+    padding: 20px;
+    color: black;
+    border-radius: 15px;
+    box-shadow: 5px 5px black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;}
+
+.cafeteria {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 20px;
+    grid-template-areas:
+        "section section";
+    background-color: white;
+    padding: 20px;
+    color: black;
+    border-radius: 15px;
+    box-shadow: 5px 5px black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    font-weight: 300;
+    text-align: left;}
+
+.bazar {
+    grid-area: bazar;
+    background-color: white;
+    padding: 20px;
+    color: black;
+    border-radius: 15px;
+    box-shadow: 5px 5px black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;}
+
+.café {
+    grid-area: café;
+    background-color: white;
+    padding: 20px;
+    color: black;
+    border-radius: 15px;
+    box-shadow: 5px 5px black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;}
+
+.revendeurposte {
+    grid-area: revendeurposte;
+    background-color: white;
+    padding: 20px;
+    color: black;
+    border-radius: 15px;
+    box-shadow: 5px 5px black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;}
+
+.multimedia {
+    grid-area: multimedia;
+    background-color: white;
+    padding: 20px;
+    color: black;
+    border-radius: 15px;
+    box-shadow: 5px 5px black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;}
