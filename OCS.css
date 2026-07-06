@@ -85,8 +85,6 @@ p {
     text-align: center;
     z-index: 1;}
 
-@media (min-width: 768px) {
-
 .accueil {
     background-image: url(IMAGES/Collage.jpg);
     background-color: green;}
@@ -99,6 +97,8 @@ p {
 
 .servadminFR {
     background-color: coral;}
+
+@media (min-width: 768px) {
 
 .cyber {
     position: fixed;
